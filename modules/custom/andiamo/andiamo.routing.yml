@@ -1,0 +1,7 @@
+andiamo.vivere_form:
+  path: '/andiamo/form/vivere/{nodeId}'
+  defaults:
+    _form: '\Drupal\andiamo\Form\VivereForm'
+    _title: 'Stock'
+  requirements:
+    _access: 'TRUE'

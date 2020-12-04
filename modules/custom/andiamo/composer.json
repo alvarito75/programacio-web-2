@@ -1,0 +1,13 @@
+{
+    "name": "andiamo",
+    "type": "drupal-module",
+    "description": "This module is for Andiamo systen",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/andiamo",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/andiamo",
+        "source": "http://cgit.drupalcode.org/andiamo",
+    },
+}

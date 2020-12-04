@@ -1,0 +1,19 @@
+{#
+/**
+ * @file
+ * LBKRender Component Template.
+ *
+ * Available variables:
+ * - title: The block title.
+ * - display_title: Display the title (boolean).
+ * - classes: Classes to be added to component (array).
+ * - entity: The entity, e.g. node, media.
+ */
+#}
+
+<div class="lbk-image-component {{ classes }}">
+  {% if display_title %}
+    <h2>{{ title }}</h2>
+  {% endif %}
+  {{ entity }}
+</div>

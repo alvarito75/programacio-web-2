@@ -1,0 +1,25 @@
+<?php
+
+/**
+ * @file
+ * Contains andiamo.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function andiamo_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the andiamo module.
+    case 'help.page.andiamo':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('This module is for Andiamo systen') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+

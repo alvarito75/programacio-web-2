@@ -1,0 +1,41 @@
+/**
+ * @file
+ * Use this CSS file to override theme CSS rules
+ */
+
+/**
+ * Main Menu.
+ */
+
+@media (max-width: 768px) {
+  .logo-and-site-name-wrapper {
+    display: flex;
+    margin-top: 20px;
+  }
+}
+
+/**
+ * View.
+ */
+
+.node--view-mode-promocion-devocional .overlayed:hover,
+.node--view-mode-promocion-devocional .overlayed-inner:hover {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+.node--view-mode-promocion-devocional .images-container {
+  margin-bottom: 10px;
+}
+
+.node--view-mode-promocion-devocional .overlay {
+  background: linear-gradient(to bottom, rgba(89, 88, 87, 0.75) 0%, rgba(89, 88, 87, 0.75) 0%);
+  background: rgba(89, 88, 87, 0.75);
+}
+
+.view-devocionales .view-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+

@@ -1,0 +1,5 @@
+name: 'andiamo'
+type: module
+description: 'This module is for Andiamo systen'
+core: 8.x
+package: 'Andiamo'
